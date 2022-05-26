@@ -7,4 +7,3 @@ jobs:
   test-lint:
     name: Test and Lint
     runs-on: ubuntu-20.04
-    
