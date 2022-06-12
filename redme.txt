@@ -1,0 +1,21 @@
+# recipe-app-api
+
+
+1 >> docker --version
+2 >> sudo apt install docker-compose
+3 >> git
+4 >> 
+5 >> docker build .
+6 >> docker-compose build
+7 >> solusion problem docker-compose << - https://www.codegrepper.com/code-examples/whatever/ERROR%3A+Version+in+%22.%2Fdocker-compose.yml%22+is+unsupported.+You+might+be+seeing+this+error+because+you%27re+using+the+wrong+Compose+file+version.#:~:text=yml%22%20is%20unsupported.-,You%20might%20be%20seeing%20this%20error%20because%20you're%20using,the%20wrong%20Compose%20file%20version.
+8 >> docker-compose run --rm app sh -c "flake8"
+9 >> docker-compose run --rm app sh -c "django-admin startproject app ."
+10 >> docker-compose up 
+11 >> docker-compose run --rm app sh -c "python manage.py test" 
+12 >> docker-compose run --rm app sh -c
+13 >> docker-compose up
+14 >> docker-compose down
+15 >> GIT >> git add .<;>>git commit -am "Added GitHub Actions. "<<;>>git push origin<<
+16 >> docker-compose build
+    >>docker-compose up -d --build
+17 >> docker-compose run --rm app sh -c "python manage.py startapp core"
